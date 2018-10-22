@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Hangman</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>
+                <span>H</span>
+                <span>A</span>
+                <span>N</span>
+                <span>G</span>
+                <span>M</span>
+                <span>A</span>
+                <span>N</span>
+            </h1>
+            <br>
+            <br>
+            <h2>JavaScript Hangman Game</h2>
+            <p>Click any key to begin. </p>
+            <div id="musicControls" class="text-center">
+                <button class="btn btn-warning btn-xs theme-button">
+                    <span class="fa fa-music"></span> Play Theme!</button>
+                <button class="btn btn-dark btn-xs pause-button">
+                    <span class="fa fa-pause"></span> Pause Song</button>
+            </div>
+            <img src="" id="hang-img">
+        </div>
+        <div id="wrong"></div>
+
+        <div id="guess"></div>
+        <div id="letters">
+            <div>
+                <button class="letter-button">A</button>
+                <button class="letter-button">B</button>
+                <button class="letter-button">C</button>
+                <button class="letter-button">D</button>
+                <button class="letter-button">E</button>
+                <button class="letter-button">F</button>
+                <button class="letter-button">G</button>
+                <button class="letter-button">H</button>
+                <button class="letter-button">I</button>
+                <button class="letter-button">J</button>
+            </div>
+            <div>
+                <button class="letter-button">K</button>
+                <button class="letter-button">L</button>
+                <button class="letter-button">M</button>
+                <button class="letter-button">N</button>
+                <button class="letter-button">O</button>
+                <button class="letter-button">P</button>
+                <button class="letter-button">Q</button>
+                <button class="letter-button">R</button>
+                <button class="letter-button">S</button>
+            </div>
+            <div>
+                <button class="letter-button">T</button>
+                <button class="letter-button">U</button>
+                <button class="letter-button">V</button>
+                <button class="letter-button">W</button>
+                <button class="letter-button">X</button>
+                <button class="letter-button">Y</button>
+                <button class="letter-button">Z</button>
+            </div>
+            <div>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+        
+    </div>
+    <div id="message"></div>
+    <footer>
+
+    </footer>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+
+</html>
